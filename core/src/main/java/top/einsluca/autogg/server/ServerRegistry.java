@@ -50,8 +50,8 @@ public class ServerRegistry {
 
         this.servers.add(
                 new ServerConfigurationImpl(
-                        List.of("cafestu.be", "cafestube.eu"),
-                        List.of("has won the game!", "hat das Spiel gewonnen!"),
+                        List.of("cafestu.be"),
+                        List.of("has won the game", "hat das Spiel gewonnen", "har vunnet spillet", "gagné le jeu"),
                         List.of("●")
                 )
         );
