@@ -11,7 +11,7 @@ public class ServerRegistry {
         this.servers.add(
                 new ServerConfigurationImpl(
                         List.of("gommehd.net", "play.gommehd.net", "gommehd.de"),
-                        List.of("-= Statistiken dieser Runde =-", "-= Statistics of this game =-", "hat die PartyGames gewonnen!"),
+                        List.of("-= Statistiken dieser Runde =-", "-= Statistics of this game =-", "hat die PartyGames gewonnen!", "---- Deine Match-Statistiken ----", "---- Your Match Statistics ----"),
                         List.of(":")
                 )
         );
