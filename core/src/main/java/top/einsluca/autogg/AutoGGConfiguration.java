@@ -26,7 +26,7 @@ public class AutoGGConfiguration extends AddonConfig {
     @TextFieldWidget.TextFieldSetting
     public final ConfigProperty<String> message = new ConfigProperty<>("gg");
 
-    @SliderWidget.SliderSetting(min = 0.1F, max = 10F, steps = 0.0F)
+    @SliderWidget.SliderSetting(min = 0.0F, max = 10F, steps = 0.1F)
     public final ConfigProperty<Double> delay = new ConfigProperty<>(1.0);
 
     @SettingSection("help")
