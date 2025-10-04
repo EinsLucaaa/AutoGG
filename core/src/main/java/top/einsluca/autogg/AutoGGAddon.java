@@ -34,7 +34,7 @@ public class AutoGGAddon extends LabyAddon<AutoGGConfiguration> {
                     alreadySent = true;
                 }
             }
-        }, 1000L * configuration().delay.getOrDefault(1));
+        }, 1000L * (int) Math.round(configuration().delay.getOrDefault(1.0)));
 
 
         new Timer("resetSend").schedule(new TimerTask() {

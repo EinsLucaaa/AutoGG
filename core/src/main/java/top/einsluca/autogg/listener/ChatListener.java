@@ -27,7 +27,7 @@ public class ChatListener {
         this.addon.getServerRegistry().getServers().forEach(serverConfiguration -> {
             serverConfiguration.getServerAddress().forEach(serverAddress -> {
 
-                if (Laby.labyAPI().serverController().getCurrentServerData().address().getHost().contains(serverAddress)) {
+                if (Laby.labyAPI().serverController().getCurrentServerData().address().getHost().toLowerCase().contains(serverAddress)) {
                     for (String s : serverConfiguration.getFilter()) {
                         if (message.contains(s)) {
                             return;
