@@ -80,6 +80,15 @@ public class ServerRegistry {
                 )
         );
 
+        this.servers.add(
+                new ServerConfigurationImpl(
+                        List.of("primeblocks.net"),
+                        List.of("hat den JACKPOT aus der"),
+                        List.of("»")
+                )
+        );
+
+
     }
 
     public List<ServerConfiguration> getServers() {
