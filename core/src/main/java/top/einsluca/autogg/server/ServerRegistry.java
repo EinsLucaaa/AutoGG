@@ -75,7 +75,7 @@ public class ServerRegistry {
         this.servers.add(
                 new ServerConfigurationImpl(
                         List.of("hypixel.net", "mc.hypixel.net"),
-                        List.of("Reward Summary", "1st Killer", "Damage Dealt"),
+                        List.of("Reward Summary", "1st Killer", "Damage Dealt", "Награды за игру", "Убийца #1" "Нанесено урона"),
                         List.of(":")
                 )
         );
