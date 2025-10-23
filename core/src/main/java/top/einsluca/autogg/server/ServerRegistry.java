@@ -75,14 +75,14 @@ public class ServerRegistry {
         this.servers.add(
                 new ServerConfigurationImpl(
                         List.of("hypixel.net", "mc.hypixel.net"),
-                        List.of("Reward Summary", "1st Killer", "Damage Dealt"),
+                        List.of("Reward Summary", "1st Killer", "Damage Dealt", "Murderers"),
                         List.of(":")
                 )
         );
 
         this.servers.add(
                 new ServerConfigurationImpl(
-                        List.of("primeblocks.net"),
+                        List.of("primeblocks.net", "besterserverderwelt.de", "besterserverderwelt.net"),
                         List.of("hat den JACKPOT aus der"),
                         List.of("»")
                 )
