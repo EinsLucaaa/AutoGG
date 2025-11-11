@@ -27,7 +27,6 @@ public class ServerRegistry {
     public ServerRegistry() {
         String remoteUrl = DEFAULT_REMOTE_URL;
 
-        // 1) Try to load from remote URL
         Optional<List<ServerEntry>> remote = Optional.empty();
         try {
             remote = loadFromUrl(remoteUrl);
@@ -41,7 +40,6 @@ public class ServerRegistry {
             return;
         }
 
-        // 2) Fallback: try to load bundled resource
         try {
             Optional<List<ServerEntry>> bundled = loadFromResource();
             if (bundled.isPresent()) {
@@ -55,7 +53,6 @@ public class ServerRegistry {
             System.out.println("[ServerRegistry] Failed to load bundled servers.json: " + e.getMessage());
         }
 
-        // 3) As a last resort, keep the registry empty (or you could add hardcoded defaults here)
         System.out.println("[ServerRegistry] No server configurations available; registry is empty");
     }
 
@@ -113,12 +110,10 @@ public class ServerRegistry {
     private List<ServerEntry> parseServersJson(String json) {
         if (json == null || json.isBlank()) return List.of();
         Gson gson = new Gson();
-        // Expecting a top-level object { "servers": [ ... ] }
         ServersWrapper wrapper = gson.fromJson(json, ServersWrapper.class);
         return wrapper == null || wrapper.servers == null ? List.of() : wrapper.servers;
     }
 
-    // JSON mapping classes
     private static class ServersWrapper {
         @SerializedName("servers")
         List<ServerEntry> servers;
