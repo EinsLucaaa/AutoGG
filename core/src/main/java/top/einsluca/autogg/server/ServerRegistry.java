@@ -17,7 +17,7 @@ import java.util.Optional;
 
 public class ServerRegistry {
 
-    private static final String DEFAULT_REMOTE_URL = "https://raw.githubusercontent.com/EinsLucaaa/AutoGG/refs/heads/feat/dynamic-data/core/src/main/resources/assets/auto-gg/servers.json";
+    private static final String DEFAULT_REMOTE_URL = "https://raw.githubusercontent.com/EinsLucaaa/AutoGG/refs/heads/master/core/src/main/resources/assets/auto-gg/servers.json";
 
     private static final String BUNDLED_RESOURCE_PATH = "/assets/auto-gg/servers.json";
 
