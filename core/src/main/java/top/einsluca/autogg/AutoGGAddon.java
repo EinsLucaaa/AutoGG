@@ -21,8 +21,6 @@ public class AutoGGAddon extends LabyAddon<AutoGGConfiguration> {
         this.registerSettingCategory();
 
         this.registerListener(new ChatListener(this));
-
-
     }
 
     public void sendGG() {
