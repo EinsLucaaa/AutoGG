@@ -1,0 +1,55 @@
+{
+  "servers": [
+    {
+      "hosts": ["gommehd.net", "play.gommehd.net", "gommehd.de"],
+      "identifiers": ["-= Statistiken dieser Runde =-", "-= Statistics of this game =-", "hat die PartyGames gewonnen!", "---- Deine Match-Statistiken ----", "---- Your Match Statistics ----"],
+      "separators": [":" ]
+    },
+    {
+      "hosts": ["skydinse.de", "play.skindinse.de", "skydinse.tk", "skydinse.net"],
+      "identifiers": ["Statistics of the game:", "Statistiken der Runde:"],
+      "separators": ["|"]
+    },
+    {
+      "hosts": ["cytooxien.de", "cytooxien.net"],
+      "identifiers": ["Statistiken dieser Runde:", "Statistics of the game:"],
+      "separators": ["-"]
+    },
+    {
+      "hosts": ["antiac.net", "antiac.eu", "antiac.de", "antiac.us", "play.antiac.net", "play.antiac.us"],
+      "identifiers": ["Overview of the round", "Rundenübersicht"],
+      "separators": ["»"]
+    },
+    {
+      "hosts": ["neruxvace.de", "neruxvace.net", "nerux.net", "thevace.net", "neruxvase.net", "neruxvase.de"],
+      "identifiers": ["Das Spiel ist beendet!"],
+      "separators": ["MVP", "VIP", "PLAYER", "MVP+", ":"]
+    },
+    {
+      "hosts": ["cafestu.be"],
+      "identifiers": ["has won the game", "hat das Spiel gewonnen", "har vunnet spillet", "gagné le jeu"],
+      "separators": ["●"]
+    },
+    {
+      "hosts": ["mccisland.net", "play.mccisland.net"],
+      "identifiers": ["Game Over!"],
+      "separators": [":" ]
+    },
+    {
+      "hosts": ["staymc.net", "play.staymc.net"],
+      "identifiers": ["hat die Runde gewonnen!"],
+      "separators": [":" ]
+    },
+    {
+      "hosts": ["hypixel.net", "mc.hypixel.net"],
+      "identifiers": ["Reward Summary", "1st Killer", "Damage Dealt", "Murderers"],
+      "separators": [":" ]
+    },
+    {
+      "hosts": ["primeblocks.net", "besterserverderwelt.de", "besterserverderwelt.net"],
+      "identifiers": ["hat den JACKPOT aus der"],
+      "separators": ["»"]
+    }
+  ]
+}
+
