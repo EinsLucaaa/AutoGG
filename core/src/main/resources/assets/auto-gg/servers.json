@@ -49,6 +49,11 @@
       "hosts": ["primeblocks.net", "besterserverderwelt.de", "besterserverderwelt.net"],
       "identifiers": ["den JACKPOT aus der"],
       "separators": ["»"]
+    }, 
+    {
+      "hosts": ["raz-network.de"],
+      "identifiers": ["hat die Runde gewonnen", "hat das Spiel gewonnen", "has won the round", "has won the game"],
+      "separators": [":"]
     }
   ]
 }
