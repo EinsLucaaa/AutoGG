@@ -1,3 +1,19 @@
+![GitHub Stars](https://www.shieldcn.dev/github/stars/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![GitHub Forks](https://www.shieldcn.dev/github/forks/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![Watchers](https://www.shieldcn.dev/github/watchers/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![Branches](https://www.shieldcn.dev/github/branches/EinsLucaaa/AutoGG.svg?variant=ghost&size=sm)
+![Contributors](https://www.shieldcn.dev/github/contributors/EinsLucaaa/AutoGG.svg?theme=emerald&variant=ghost&size=sm)
+![Last commit](https://www.shieldcn.dev/github/last-commit/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![Commits](https://www.shieldcn.dev/github/commits/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![Open issues](https://www.shieldcn.dev/github/open-issues/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![Closed issues](https://www.shieldcn.dev/github/closed-issues/EinsLucaaa/AutoGG.svg?variant=ghost&size=sm)
+![Open PRs](https://www.shieldcn.dev/github/open-prs/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![Closed PRs](https://www.shieldcn.dev/github/closed-prs/EinsLucaaa/AutoGG.svg?variant=ghost&size=sm)
+![Merged PRs](https://www.shieldcn.dev/github/merged-prs/EinsLucaaa/AutoGG.svg?variant=ghost&size=sm)
+![Release](https://www.shieldcn.dev/github/release/EinsLucaaa/AutoGG.svg?variant=ghost&size=sm)
+![CI](https://www.shieldcn.dev/github/ci/EinsLucaaa/AutoGG.svg?variant=secondary&size=sm)
+![License](https://www.shieldcn.dev/github/license/EinsLucaaa/AutoGG.svg?variant=ghost&size=sm)
+
 # Minecraft LabyMod AutoGG Addon
 
 This project is a Minecraft LabyMod addon that automatically sends "gg" (good game) messages into the chat after a game round. It enhances the gaming experience by saving time and effort in manually typing the message.
